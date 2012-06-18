@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5EEDD2158F9D1E00CFFD67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDD1158F9D1E00CFFD67 /* UIKit.framework */; };
+		1A5EEDD4158F9D1E00CFFD67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDD3158F9D1E00CFFD67 /* Foundation.framework */; };
+		1A5EEDD6158F9D1E00CFFD67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDD5158F9D1E00CFFD67 /* CoreGraphics.framework */; };
+		1A5EEDDC158F9D1E00CFFD67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A5EEDDA158F9D1E00CFFD67 /* InfoPlist.strings */; };
+		1A5EEDDE158F9D1E00CFFD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EEDDD158F9D1E00CFFD67 /* main.m */; };
+		1A5EEDE2158F9D1E00CFFD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EEDE1158F9D1E00CFFD67 /* AppDelegate.m */; };
+		1A5EEDE5158F9D1E00CFFD67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5EEDE3158F9D1E00CFFD67 /* MainStoryboard.storyboard */; };
+		1A5EEDE8158F9D1E00CFFD67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EEDE7158F9D1E00CFFD67 /* ViewController.m */; };
+		1A5EEDF0158F9D1E00CFFD67 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDEF158F9D1E00CFFD67 /* SenTestingKit.framework */; };
+		1A5EEDF1158F9D1E00CFFD67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDD1158F9D1E00CFFD67 /* UIKit.framework */; };
+		1A5EEDF2158F9D1E00CFFD67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EEDD3158F9D1E00CFFD67 /* Foundation.framework */; };
+		1A5EEDFA158F9D1E00CFFD67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A5EEDF8158F9D1E00CFFD67 /* InfoPlist.strings */; };
+		1A5EEDFD158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EEDFC158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5EEDF3158F9D1E00CFFD67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5EEDC4158F9D1E00CFFD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5EEDCC158F9D1E00CFFD67;
+			remoteInfo = "Do You know what Time it is?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5EEDCD158F9D1E00CFFD67 /* Do You know what Time it is?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do You know what Time it is?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5EEDD1158F9D1E00CFFD67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A5EEDD3158F9D1E00CFFD67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A5EEDD5158F9D1E00CFFD67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A5EEDD9158F9D1E00CFFD67 /* Do You know what Time it is?-Info.plist */ = {isa = PBXFileReference; path = "Do You know what Time it is?-Info.plist"; sourceTree = "<group>"; };
+		1A5EEDDB158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A5EEDDD158F9D1E00CFFD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A5EEDDF158F9D1E00CFFD67 /* Do You know what Time it is?-Prefix.pch */ = {isa = PBXFileReference; path = "Do You know what Time it is?-Prefix.pch"; sourceTree = "<group>"; };
+		1A5EEDE0158F9D1E00CFFD67 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A5EEDE1158F9D1E00CFFD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A5EEDE4158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1A5EEDE6158F9D1E00CFFD67 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1A5EEDE7158F9D1E00CFFD67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A5EEDEE158F9D1E00CFFD67 /* Do You know what Time it is?Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do You know what Time it is?Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5EEDEF158F9D1E00CFFD67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A5EEDF7158F9D1E00CFFD67 /* Do You know what Time it is?Tests-Info.plist */ = {isa = PBXFileReference; path = "Do You know what Time it is?Tests-Info.plist"; sourceTree = "<group>"; };
+		1A5EEDF9158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A5EEDFB158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.h */ = {isa = PBXFileReference; path = Do_You_know_what_Time_it_is_Tests.h; sourceTree = "<group>"; };
+		1A5EEDFC158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_You_know_what_Time_it_is_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5EEDCA158F9D1E00CFFD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDD2158F9D1E00CFFD67 /* UIKit.framework in Frameworks */,
+				1A5EEDD4158F9D1E00CFFD67 /* Foundation.framework in Frameworks */,
+				1A5EEDD6158F9D1E00CFFD67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5EEDEA158F9D1E00CFFD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDF0158F9D1E00CFFD67 /* SenTestingKit.framework in Frameworks */,
+				1A5EEDF1158F9D1E00CFFD67 /* UIKit.framework in Frameworks */,
+				1A5EEDF2158F9D1E00CFFD67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5EEDC2158F9D1E00CFFD67 = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDD7158F9D1E00CFFD67 /* Do You know what Time it is? */,
+				1A5EEDF5158F9D1E00CFFD67 /* Do You know what Time it is?Tests */,
+				1A5EEDD0158F9D1E00CFFD67 /* Frameworks */,
+				1A5EEDCE158F9D1E00CFFD67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5EEDCE158F9D1E00CFFD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDCD158F9D1E00CFFD67 /* Do You know what Time it is?.app */,
+				1A5EEDEE158F9D1E00CFFD67 /* Do You know what Time it is?Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5EEDD0158F9D1E00CFFD67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDD1158F9D1E00CFFD67 /* UIKit.framework */,
+				1A5EEDD3158F9D1E00CFFD67 /* Foundation.framework */,
+				1A5EEDD5158F9D1E00CFFD67 /* CoreGraphics.framework */,
+				1A5EEDEF158F9D1E00CFFD67 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5EEDD7158F9D1E00CFFD67 /* Do You know what Time it is? */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDE0158F9D1E00CFFD67 /* AppDelegate.h */,
+				1A5EEDE1158F9D1E00CFFD67 /* AppDelegate.m */,
+				1A5EEDE3158F9D1E00CFFD67 /* MainStoryboard.storyboard */,
+				1A5EEDE6158F9D1E00CFFD67 /* ViewController.h */,
+				1A5EEDE7158F9D1E00CFFD67 /* ViewController.m */,
+				1A5EEDD8158F9D1E00CFFD67 /* Supporting Files */,
+			);
+			path = "Do You know what Time it is?";
+			sourceTree = "<group>";
+		};
+		1A5EEDD8158F9D1E00CFFD67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDD9158F9D1E00CFFD67 /* Do You know what Time it is?-Info.plist */,
+				1A5EEDDA158F9D1E00CFFD67 /* InfoPlist.strings */,
+				1A5EEDDD158F9D1E00CFFD67 /* main.m */,
+				1A5EEDDF158F9D1E00CFFD67 /* Do You know what Time it is?-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A5EEDF5158F9D1E00CFFD67 /* Do You know what Time it is?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDFB158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.h */,
+				1A5EEDFC158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m */,
+				1A5EEDF6158F9D1E00CFFD67 /* Supporting Files */,
+			);
+			path = "Do You know what Time it is?Tests";
+			sourceTree = "<group>";
+		};
+		1A5EEDF6158F9D1E00CFFD67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EEDF7158F9D1E00CFFD67 /* Do You know what Time it is?Tests-Info.plist */,
+				1A5EEDF8158F9D1E00CFFD67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5EEDCC158F9D1E00CFFD67 /* Do You know what Time it is? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5EEE00158F9D1E00CFFD67 /* Build configuration list for PBXNativeTarget "Do You know what Time it is?" */;
+			buildPhases = (
+				1A5EEDC9158F9D1E00CFFD67 /* Sources */,
+				1A5EEDCA158F9D1E00CFFD67 /* Frameworks */,
+				1A5EEDCB158F9D1E00CFFD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Do You know what Time it is?";
+			productName = "Do You know what Time it is?";
+			productReference = 1A5EEDCD158F9D1E00CFFD67 /* Do You know what Time it is?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A5EEDED158F9D1E00CFFD67 /* Do You know what Time it is?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5EEE03158F9D1E00CFFD67 /* Build configuration list for PBXNativeTarget "Do You know what Time it is?Tests" */;
+			buildPhases = (
+				1A5EEDE9158F9D1E00CFFD67 /* Sources */,
+				1A5EEDEA158F9D1E00CFFD67 /* Frameworks */,
+				1A5EEDEB158F9D1E00CFFD67 /* Resources */,
+				1A5EEDEC158F9D1E00CFFD67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5EEDF4158F9D1E00CFFD67 /* PBXTargetDependency */,
+			);
+			name = "Do You know what Time it is?Tests";
+			productName = "Do You know what Time it is?Tests";
+			productReference = 1A5EEDEE158F9D1E00CFFD67 /* Do You know what Time it is?Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5EEDC4158F9D1E00CFFD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1A5EEDC7158F9D1E00CFFD67 /* Build configuration list for PBXProject "Do You know what Time it is?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A5EEDC2158F9D1E00CFFD67;
+			productRefGroup = 1A5EEDCE158F9D1E00CFFD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5EEDCC158F9D1E00CFFD67 /* Do You know what Time it is? */,
+				1A5EEDED158F9D1E00CFFD67 /* Do You know what Time it is?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5EEDCB158F9D1E00CFFD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDDC158F9D1E00CFFD67 /* InfoPlist.strings in Resources */,
+				1A5EEDE5158F9D1E00CFFD67 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5EEDEB158F9D1E00CFFD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDFA158F9D1E00CFFD67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A5EEDEC158F9D1E00CFFD67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5EEDC9158F9D1E00CFFD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDDE158F9D1E00CFFD67 /* main.m in Sources */,
+				1A5EEDE2158F9D1E00CFFD67 /* AppDelegate.m in Sources */,
+				1A5EEDE8158F9D1E00CFFD67 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5EEDE9158F9D1E00CFFD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EEDFD158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5EEDF4158F9D1E00CFFD67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5EEDCC158F9D1E00CFFD67 /* Do You know what Time it is? */;
+			targetProxy = 1A5EEDF3158F9D1E00CFFD67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A5EEDDA158F9D1E00CFFD67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5EEDDB158F9D1E00CFFD67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A5EEDE3158F9D1E00CFFD67 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5EEDE4158F9D1E00CFFD67 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1A5EEDF8158F9D1E00CFFD67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5EEDF9158F9D1E00CFFD67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A5EEDFE158F9D1E00CFFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A5EEDFF158F9D1E00CFFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5EEE01158F9D1E00CFFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
+				INFOPLIST_FILE = "Do You know what Time it is?/Do You know what Time it is?-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A5EEE02158F9D1E00CFFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
+				INFOPLIST_FILE = "Do You know what Time it is?/Do You know what Time it is?-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A5EEE04158F9D1E00CFFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Do You know what Time it is?.app/Do You know what Time it is?";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
+				INFOPLIST_FILE = "Do You know what Time it is?Tests/Do You know what Time it is?Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A5EEE05158F9D1E00CFFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Do You know what Time it is?.app/Do You know what Time it is?";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
+				INFOPLIST_FILE = "Do You know what Time it is?Tests/Do You know what Time it is?Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5EEDC7158F9D1E00CFFD67 /* Build configuration list for PBXProject "Do You know what Time it is?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5EEDFE158F9D1E00CFFD67 /* Debug */,
+				1A5EEDFF158F9D1E00CFFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5EEE00158F9D1E00CFFD67 /* Build configuration list for PBXNativeTarget "Do You know what Time it is?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5EEE01158F9D1E00CFFD67 /* Debug */,
+				1A5EEE02158F9D1E00CFFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A5EEE03158F9D1E00CFFD67 /* Build configuration list for PBXNativeTarget "Do You know what Time it is?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5EEE04158F9D1E00CFFD67 /* Debug */,
+				1A5EEE05158F9D1E00CFFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5EEDC4158F9D1E00CFFD67 /* Project object */;
+}
