@@ -37,21 +37,22 @@
 		1A5EEDD1158F9D1E00CFFD67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A5EEDD3158F9D1E00CFFD67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A5EEDD5158F9D1E00CFFD67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A5EEDD9158F9D1E00CFFD67 /* Do You know what Time it is?-Info.plist */ = {isa = PBXFileReference; path = "Do You know what Time it is?-Info.plist"; sourceTree = "<group>"; };
+		1A5EEDD9158F9D1E00CFFD67 /* Do You know what Time it is?-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Do You know what Time it is?-Info.plist"; sourceTree = "<group>"; };
 		1A5EEDDB158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A5EEDDD158F9D1E00CFFD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A5EEDDF158F9D1E00CFFD67 /* Do You know what Time it is?-Prefix.pch */ = {isa = PBXFileReference; path = "Do You know what Time it is?-Prefix.pch"; sourceTree = "<group>"; };
-		1A5EEDE0158F9D1E00CFFD67 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A5EEDDF158F9D1E00CFFD67 /* Do You know what Time it is?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Do You know what Time it is?-Prefix.pch"; sourceTree = "<group>"; };
+		1A5EEDE0158F9D1E00CFFD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A5EEDE1158F9D1E00CFFD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A5EEDE4158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1A5EEDE6158F9D1E00CFFD67 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1A5EEDE6158F9D1E00CFFD67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1A5EEDE7158F9D1E00CFFD67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A5EEDEE158F9D1E00CFFD67 /* Do You know what Time it is?Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do You know what Time it is?Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5EEDEF158F9D1E00CFFD67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1A5EEDF7158F9D1E00CFFD67 /* Do You know what Time it is?Tests-Info.plist */ = {isa = PBXFileReference; path = "Do You know what Time it is?Tests-Info.plist"; sourceTree = "<group>"; };
+		1A5EEDF7158F9D1E00CFFD67 /* Do You know what Time it is?Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Do You know what Time it is?Tests-Info.plist"; sourceTree = "<group>"; };
 		1A5EEDF9158F9D1E00CFFD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A5EEDFB158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.h */ = {isa = PBXFileReference; path = Do_You_know_what_Time_it_is_Tests.h; sourceTree = "<group>"; };
+		1A5EEDFB158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Do_You_know_what_Time_it_is_Tests.h; sourceTree = "<group>"; };
 		1A5EEDFC158F9D1E00CFFD67 /* Do_You_know_what_Time_it_is_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_You_know_what_Time_it_is_Tests.m; sourceTree = "<group>"; };
+		1A5EEE06158F9DA200CFFD67 /* Do You know what Time it is?.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Do You know what Time it is?.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		1A5EEDD7158F9D1E00CFFD67 /* Do You know what Time it is? */ = {
 			isa = PBXGroup;
 			children = (
+				1A5EEE06158F9DA200CFFD67 /* Do You know what Time it is?.entitlements */,
 				1A5EEDE0158F9D1E00CFFD67 /* AppDelegate.h */,
 				1A5EEDE1158F9D1E00CFFD67 /* AppDelegate.m */,
 				1A5EEDE3158F9D1E00CFFD67 /* MainStoryboard.storyboard */,
@@ -329,7 +331,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -347,7 +349,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -361,6 +363,7 @@
 				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
 				INFOPLIST_FILE = "Do You know what Time it is?/Do You know what Time it is?-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,6 +375,7 @@
 				GCC_PREFIX_HEADER = "Do You know what Time it is?/Do You know what Time it is?-Prefix.pch";
 				INFOPLIST_FILE = "Do You know what Time it is?/Do You know what Time it is?-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
